@@ -12,7 +12,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+/*
 
+    private void pullMethod(){
+        Log.i(TAG, "Push Method created");
+
+    }
+*/
     private void testUpload(){
         int i = 10;
         int j = 20;
@@ -21,5 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void pushMethod(){
         Log.i(TAG, "Push Method Created");
+    }
+
+    private void secondBranch(){
+        Log.i(TAG, "Second Branch Created");
     }
 }

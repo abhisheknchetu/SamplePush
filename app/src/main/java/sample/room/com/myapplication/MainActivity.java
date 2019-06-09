@@ -22,4 +22,8 @@ public class MainActivity extends AppCompatActivity {
     private void pushMethod(){
         Log.i(TAG, "Push Method Created");
     }
+
+    private void secondPushMethod(){
+        Log.i(TAG, "Second Push Method");
+    }
 }

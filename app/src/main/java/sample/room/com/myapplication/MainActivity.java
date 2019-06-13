@@ -15,8 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void testUpload(){
         int i = 10;
-        int j = 20;
-        int k = 30;
-        boolean has = false;
+        int k = 50;
     }
 }

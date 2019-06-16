@@ -12,21 +12,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-/*
 
-    private void pullMethod(){
-        Log.i(TAG, "Push Method created");
-
-    }
-*/
     private void testUpload(){
-        int i = 10;
-        int k = 50;
+        int i = 15;
+        int ii = 50;
 
-        String name = "Ram";
-    }
+        String iString = Integer.toString(i);
+        String iiString;
 
-    private void secondBranch(){
-        Log.i(TAG, "Second Branch Created");
+        if (ii<=100)
+            iiString = Integer.toString(ii);
+
     }
 }

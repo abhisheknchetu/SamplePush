@@ -14,12 +14,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void testUpload(){
-        int i = 10;
-        int j = 20;
+        int i = 15;
+        int ii = 50;
 
-        String name = "Ram";
+        String iString = Integer.toString(i);
+        String iiString;
 
-        boolean has = false;
+        if (ii<=100)
+            iiString = Integer.toString(ii);
 
     }
 }

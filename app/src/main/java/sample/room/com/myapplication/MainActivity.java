@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         int j = 20;
 
         String name = "Ram";
+
         boolean has = false;
 
     }

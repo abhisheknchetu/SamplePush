@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         String iiString;
 
         if (ii<=100)
-            iiString = Integer.toString(ii);
+            iiString = Integer.toString(ii - 9);
 
     }
 }
